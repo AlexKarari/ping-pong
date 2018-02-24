@@ -1,0 +1,56 @@
+#head{
+  background-image: url("../img/img8.jpg");
+  height: 45vh;
+  width:100%;
+}
+body{
+  background-color:#FFF8DC;
+}
+#open-menu {
+  position: static;
+  font-size: 200%;
+  left: 3%;
+  color: white;
+}
+#close-menu{
+  position: absolute;
+  font-size: 200%;
+  left: 3%;
+  color: white;
+  align-content: center;
+  text-align: left;
+}
+
+/*Styling the menu*/
+aside {
+  display: run-in;
+  justify-content: space-around;
+  align-items:flex-end;
+  height: 100vh;
+  width: 40vw;
+  z-index: 10;
+  position: inherit;
+  left: 0%;
+  background-color: #B0E0E6;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+#content{
+  text-align: left;
+  color: white;
+}
+#the-menu{
+  text-align: left;
+  list-style: none;
+}
+#the-menu li{
+  padding: 15%;
+  font-size: 200%;
+  text-transform: uppercase;
+  color: white;
+}
+#the-menu a{
+  color: white;
+  text-align: left;
+  align-content: flex-start;
+}
