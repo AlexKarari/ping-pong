@@ -1,5 +1,5 @@
 #head{
-  background-image: url("../img/img8.jpg");
+  background-image: url("../img/img15.jpg");
   height: 45vh;
   width:100%;
 }
@@ -26,8 +26,8 @@ aside {
   display: run-in;
   justify-content: space-around;
   align-items:flex-end;
-  height: 50vh;
-  width: 40vw;
+  height: 55vh;
+  width: 35vw;
   z-index: 10;
   position: inherit;
   left: 0%;
