@@ -14,17 +14,17 @@ var answer=function(display){
  // if the number is divisible by 15, write "Ping Pong"
   if ( i % 15 === 0) {
     console.log("pingpong");
-    $(".Push").append("<li>"+"pingpong"+"</>");
+    $(".Push").append("<li>"+"PingPong"+"</li>");
     //return "PingPong";
    }
   // if the number is divisible by 3, write "Ping"
   else if ( i % 3 === 0) {
-    $(".Push").append("<li>"+"ping"+"</>");
+    $(".Push").append("<li>"+"Ping"+"</>");
     //return "Ping";
   }
     // otherwise, write "po"
   else if ( i % 5 === 0) {
-    $(".Push").append("<li>"+"pong"+"</>");
+    $(".Push").append("<li>"+"Pong"+"</>");
       //return "Pong";
      }
   else {
