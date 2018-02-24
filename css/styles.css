@@ -26,12 +26,12 @@ aside {
   display: run-in;
   justify-content: space-around;
   align-items:flex-end;
-  height: 100vh;
+  height: 50vh;
   width: 40vw;
   z-index: 10;
   position: inherit;
   left: 0%;
-  background-color: #B0E0E6;
+  background-image: url("../img/img10.jpg");
   padding-left: 0px;
   margin-left: 0px;
 }
