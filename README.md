@@ -12,13 +12,20 @@ A user should be able to enter a new number and see new results over and over ag
 
 By Alexander Karari.
 
+Specifications.
+1. User is expected to input any number of their choice.
+2. Range of numbers between the number entered is displayed.
+    Example input: 5
+    Example output: [1,2,3,4,5]
+3. If any number in the range matches the rules of the game, the number is replaced with          either "ping, pong or Ping-pong."
+    Example input: 5
+    Example output: [1,2,3,4,Pong]
+4. User needs to refresh page to clear the range of numbers displayed.
+
 Setup/Installation Requirements.
-* This is a great place
-* to list setup instructions
-* in a simple
-* easy-to-understand
-* format
-{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?}
+1. Website requirements.
+  Any web browser (Safari, Google chrome, Mozilla, Internet explorer) can be used to open this website.
+
 
 Known Bugs.
 No known bugs.
