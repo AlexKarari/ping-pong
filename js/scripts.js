@@ -1,16 +1,16 @@
 $(document).ready(function() {
   $("#enter form").submit(function(event) {
     event.preventDefault();
-    var display = parseInt($("input#ppnumber").val());
-    var result = answer(display);
-    $(".Push").text(result);
+    var displayInputtedData = parseInt($("input#ppnumber").val());
+    var resultFromInputtedData = arrayAnswer(displayInputtedData);
+    $(".Push").text(resultFromDisplay);
 
   });
 });
 
 // business logic
-var answer = function(display) {
-  for (i = 1; i <= display; i++) {
+var arrayAnswer = function(displayInputtedData) {
+  for (i = 1; i <= displayInputtedData; i++) {
     // if the number is divisible by 15, write "Ping Pong"
     if (i % 15 === 0) {
       console.log("pingpong");
