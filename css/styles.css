@@ -1,11 +1,6 @@
 #head {
-  background-image: url("../img/img15.jpg");
-  height: 45vh;
-  width: 100%;
-}
-
-body {
-  background-color: #FFF8DC;
+  background-color: #191970;
+  height: 40vh;
 }
 
 #open-menu {
@@ -34,8 +29,8 @@ aside {
   width: 35vw;
   z-index: 10;
   position: inherit;
-  left: 0%;
-  background-image: url("../img/img10.jpg");
+  left: 5%;
+  background-color: #4169e1;
   padding-left: 0px;
   margin-left: 0px;
 }

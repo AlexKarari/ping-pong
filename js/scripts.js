@@ -1,12 +1,33 @@
+// User Interface
 $(document).ready(function() {
+  $("#open-menu").click(function(){
+  $("aside").animate({
+    "left":0
+  },2000);
+  });
+  $("#close-menu").click(function() {
+    $("aside").animate({
+      "left": "-100\%"
+    }, 2000);
+  });
   $("#enter form").submit(function(event) {
+    $(".Push").empty();
     event.preventDefault();
     var displayInputtedData = parseInt($("input#ppnumber").val());
     var resultFromInputtedData = arrayAnswer(displayInputtedData);
     $(".Push").text(resultFromDisplay);
-
+    //Closing the menu
+    $("#close-menu").click(function() {
+      $("aside").animate({
+        "left": "-100\%"
+      }, 2000);
+    });
   });
+
 });
+
+
+
 
 // business logic
 var arrayAnswer = function(displayInputtedData) {
