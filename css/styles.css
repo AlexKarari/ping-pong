@@ -1,18 +1,21 @@
-#head{
+#head {
   background-image: url("../img/img15.jpg");
   height: 45vh;
-  width:100%;
+  width: 100%;
 }
-body{
-  background-color:#FFF8DC;
+
+body {
+  background-color: #FFF8DC;
 }
+
 #open-menu {
   position: static;
   font-size: 200%;
   left: 3%;
   color: white;
 }
-#close-menu{
+
+#close-menu {
   position: absolute;
   font-size: 200%;
   left: 3%;
@@ -22,10 +25,11 @@ body{
 }
 
 /*Styling the menu*/
+
 aside {
   display: run-in;
   justify-content: space-around;
-  align-items:flex-end;
+  align-items: flex-end;
   height: 55vh;
   width: 35vw;
   z-index: 10;
@@ -35,21 +39,25 @@ aside {
   padding-left: 0px;
   margin-left: 0px;
 }
-#content{
+
+#content {
   text-align: left;
   color: white;
 }
-#the-menu{
+
+#the-menu {
   text-align: left;
   list-style: none;
 }
-#the-menu li{
+
+#the-menu li {
   padding: 15%;
   font-size: 200%;
   text-transform: uppercase;
   color: white;
 }
-#the-menu a{
+
+#the-menu a {
   color: white;
   text-align: left;
   align-content: flex-start;
