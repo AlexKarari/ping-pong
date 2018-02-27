@@ -2,6 +2,13 @@
   background-color: #191970;
   height: 40vh;
 }
+header h1{
+  color: White;
+  text-align: center;
+  font-family: monospace;
+  font-weight: bold;
+  padding-top: 50px;
+}
 
 #open-menu {
   position: static;
